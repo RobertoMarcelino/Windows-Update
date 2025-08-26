@@ -2,14 +2,15 @@
 .SYNOPSIS 
 	Install Windows Updates
 .DESCRIPTION 
+    Forked from SpookOz/zabbix-winupdates (https://github.com/SpookOz/zabbix-winupdates)
+
 	This script will check for pending Windows Updates, report them to Zabbix, and optionally install the updates.
 	If you do not wish the script to install updates, look for the comment in the script that tells you how to disable that function.
 	Check https://github.com/SpookOz/zabbix-winupdates for the latest version of this script
 .NOTES  
 	File Name:  windows_updates.ps1 
-	Author:     ISL Suporte Limitada
-	Requires:   PowerShell v5
-	Version:    2.1
+	Requires:   PowerShell v5+
+	Version:    25.8.26
 #>
 
 #=======================================================================================================================================
